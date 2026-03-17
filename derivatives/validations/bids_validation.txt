@@ -1,6 +1,6 @@
 	[WARNING] SUBJECT_FOLDERS There are no subject directories (labeled "sub-*") in the root of this BIDS dataset.
 
-		/dataset_description.json
+		/dataset_description.json - rules.checks.dataset.SubjectFolders
 
 	Please visit https://neurostars.org/search?q=SUBJECT_FOLDERS for existing conversations about this issue.
 
@@ -11,11 +11,11 @@ The use of license name abbreviations is RECOMMENDED for specifying a license
 (see [Licenses](SPEC_ROOT/appendices/licenses.md)).
 The corresponding full license text MAY be specified in an additional
 `LICENSE` file.
-
+ - rules.dataset_metadata.dataset_description
 
 		GeneratedBy
 		/dataset_description.json - Field description: Used to specify provenance of the dataset.
-
+ - rules.dataset_metadata.dataset_description
 
 		SourceDatasets
 		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
@@ -24,7 +24,7 @@ Valid keys in each object include `"URL"`, `"DOI"` (see
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
 
@@ -34,14 +34,14 @@ will make DOI registration from dataset metadata impossible.
 
 		Authors
 		/dataset_description.json - Field description: List of individuals who contributed to the creation/curation of the dataset.
-
+ - rules.dataset_metadata.dataset_authors
 
 	Please visit https://neurostars.org/search?q=NO_AUTHORS for existing conversations about this issue.
 
 	[ERROR] JSON_KEY_REQUIRED A JSON flle is missing a key listed as required.
 		Name
 		/dataset_description.json - Field description: Name of the dataset.
-
+ - rules.dataset_metadata.dataset_description
 
 	Please visit https://neurostars.org/search?q=JSON_KEY_REQUIRED for existing conversations about this issue.
 
